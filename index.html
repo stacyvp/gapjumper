@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>Gap Jumper</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<script src= "buzz.min.js" type="text/javascript"></script>
 		<script src="processing-1.4.1.js"></script>
@@ -16,10 +17,7 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
-		<canvas id="mycanvas">
-		</canvas>
-		<div id ="counterr"></div>
-
+		<audio src="gamesound.mp3" autoplay="autoplay"></audio>
 		<!-- Third -->
 			<section id="first" class="main">
 				<header>
@@ -30,49 +28,32 @@
 							<a href="#mycanvas" class="button scrolly">GAPJUMPER</a>
 						</footer>
 					</div>
+				<canvas id="mycanvas">
+					<div id = 'counter'></div>
+		        </canvas>
 				</header>
-				<div class="content dark style3">
+				<div class="content dark style3" id="why">
 					<div class="container">
 						<div class="row">
 							<div class="4u 12u(narrow)">
 								<h3>WHY GAPJUMPER?</h3>
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
-								Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia.</p>
+								<p> Nelson Madela once said, "Education is the most powerful weapon which you can use to change the world."
+								We wanted to create this game to educate people about the Wage Gap for women. In 2012, the median earnings
+								of American women working full time year-round was $37,791. American men earned a median income of $49,398.
+								The gender wage gap has hovered at about 77 cents on the dollar </p>
 							</div>
 							<div class="4u 12u(narrow)">
-								<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales. Diam
-								tempor dui lacinia eget ornare varius gravida. Gravida dis placerat lectus ante
-								vel nunc euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus
-								augue cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida dolore
-								euismod lorem ipsum dolor sit amet consequat eget ornare varius gravida euismod.
-								Gravida dis lorem ipsum dolor placerat magna tempus feugiat magna tempus lorem.</p>
-								<p>Lectus ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-								accumsan vivamus augue cubilia.</p>
+								<p>since 2007. Women start of earning less than men even at the age of 16. Why is this happening? The Wage
+								Gap for women is still happening because women still aren’t a priority. Women have played a key role in
+								economic growth which means there skill and mindset is necessary to development of our societies. Closing the
+								gender gap can help create a more equal and better working society. The at-risk-of-poverty rate is around 22%
+								for women over 65%, </p>
 							</div>
 							<div class="4u 12u(narrow)">
-								<p>Placerat lectus ante vel nunc euismod est turpis sodales. Diam tempor dui
-								lacinia eget ornare varius gravida. Gravida dis placerat lectus ante vel nunc
-								euismod est turpis sodales. Diam tempor dui lacinia accumsan vivamus augue
-								cubilia vivamus nisi eu eget ornare varius gravida euismod.  Gravida dis
-								lorem ipsum dolor placerat magna tempus feugiat. Lectus ante vel nunc euismod
-								est turpis sodales. Diam tempor dui lacinia dolore.</p>
-								<p>Accumsan vivamus augue cubilia vivamus nisi eu eget ornare varius gravida
-								dolore euismod lorem ipsum dolor sit amet conseismod lorem ipsum dolor sit amet
-								consequat lorem ipsum consequat feugiat sed tempus euismod feugiat veroeros.</p>
+								<p>compared to 16% of men
+								over 65. We need to work together to create equal pay for everyone no matter there race or gender. </p>
 								<footer>
-									<a href="#second" class="button scrolly">Ipsum ornare lorem dolor</a>
+									<a href="#second" class="button scrolly">BE PROACTIVE</a>
 								</footer>
 							</div>
 						</div>
@@ -91,7 +72,7 @@
 						<div class="row">
 							<div class="4u 12u(narrow)">
 								<section>
-									<span class="feature-icon"><span class="icon fa-clock-o"></span></span>
+									<span class="feature-icon"><span class="icon fa-venus"></span></span>
 									<header>
 										<h3>Girls Who Code</h3>
 									</header>
@@ -106,15 +87,14 @@
 									<header>
 										<h3>Women Empowered</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+									<p>Women Empowered is an organization that connects, educates and supports women of all ages
+									and backgrounds, and inspires them to give back to their communities through mentorship,
+									networking, and volunteerism.</p>
 								</section>
 							</div>
 							<div class="4u 12u(narrow)">
 								<section>
-									<span class="feature-icon"><span class="icon fa-cloud"></span></span>
+									<span class="feature-icon"><span class="icon fa-globe"></span></span>
 									<header>
 										<h3>Women for Women International</h3>
 									</header>
@@ -127,9 +107,9 @@
 						<div class="row">
 							<div class="12u">
 								<footer>
-									<a href="http://girlswhocode.com" class="button scrolly">GIRLS WHO CODE</a>
-									<a href="http://women-empowered.com" class="button scrolly">WOMEN EMPOWERED</a>
-									<a href="http://www.womenforwomen.org" class="button scrolly">WOMEN FOR WOMEN</a>									
+									<a href="http://girlswhocode.com" target="_blank" class="button scrolly">GIRLS WHO CODE</a>
+									<a href="http://women-empowered.com" target="_blank" class="button scrolly">WOMEN EMPOWERED</a>
+									<a href="http://www.womenforwomen.org" target="_blank" class="button scrolly">WOMEN FOR WOMEN</a>									
 								</footer>
 							</div>
 						</div>
@@ -162,10 +142,10 @@
 									<header>
 										<h3>ALIYA CHAMBLESS</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+									<p>Aliya is a high school student from San Francisco. She loves to code, make art, play with
+									with arduinos. She is in the Girls Who Code club and took part in the Girls Who Code Summer
+									Immersion Program. She works at the Exploratorium and likes to tinker and 3D print things. She wants
+									to close the gender gap in technology!</p>
 								</section>
 							</div>
 							<div class="4u 12u(narrow)">
@@ -173,10 +153,11 @@
 									<header>
 										<h3>STACY PHAN</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+									<p>Stacy is a lifelong student and a fanatic. She is constantly trying to find new
+									opportunities to learn and to help grow as a person. She is a fanatic in a sense that
+									anything she does, she gives it everything she has and becomes a little obsessed with it.
+									She is passionate about youth empowerment, education, social and political awareness,
+									and using tech for social good!</p>
 								</section>
 							</div>
 							<div class="4u 12u(narrow)">
@@ -184,10 +165,11 @@
 									<header>
 										<h3>AMANDA HARRIS</h3>
 									</header>
-									<p>Gravida dis placerat lectus ante vel nunc euismod est turpis sodales.
-									Diam tempor dui lacinia accumsan vivamus. Gravida dis placerat lectus
-									ante vel nunc euismod est turpis sodales. Diam tempor dui lacinia
-									accumsan vivamus.</p>
+									<p> Amanda is Senior at Holy Names High School. She is active in BSU,Student Government,
+									Musicals  and there Tech Club. Amanda believes in the saying “can’t stop won’t stop” which
+									has been her motto for always trying improve herself and the world around her. She is
+									passionate about revolutionizing education, political justice, technology and bringing awareness
+									to gender inequality.</p>
 								</section>
 							</div>
 						</div>
@@ -205,19 +187,18 @@
 				<header>
 					<div class="container">
 						<h2>CONTACT US</h2>
-						<p>Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet consequat<br />
-						feugiat. Gravida dis placerat lectus ante vel nunc euismod eget ornare varius gravida euismod lorem ipsum dolor sit amet.</p>
+						<p>Feel free to contact us with questions, advice, or anything else!</p>
 					</div>
 				</header>
 				<div class="content style4 featured">
 					<div class="container 75%">
-						<form method="post" action="#">
+						<form action="mailto:aliyac1999@gmail.com" method='post' enctype="text/plain">
 							<div class="row 50%">
-								<div class="6u 12u(mobile)"><input type="text" placeholder="Name" /></div>
-								<div class="6u 12u(mobile)"><input type="text" placeholder="Email" /></div>
+								<div class="6u 12u(mobile)"><input type="text" name='Name' placeholder="Name" /></div>
+								<div class="6u 12u(mobile)"><input type="text" name='Email' placeholder="Email" /></div>
 							</div>
 							<div class="row 50%">
-								<div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
+								<div class="12u"><textarea name="Message" placeholder="Message"></textarea></div>
 							</div>
 							<div class="row">
 								<div class="12u">
@@ -235,11 +216,11 @@
 		<!-- Footer -->
 			<section id="footer">
 				<ul class="icons">
-					<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-					<li><a href="#" class="icon fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://twitter.com/mandyjharris" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="https://www.facebook.com/aliya.chambless" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+					<li><a href="https://instagram.com/aliyachambless/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" target="_blank" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+					<li><a href="https://github.com/aliyachambless/gap-jumper.git" target="_blank" class="icon fa-github"><span class="label">GitHub</span></a></li>
 				</ul>
 				<div class="copyright">
 					<ul class="menu">
